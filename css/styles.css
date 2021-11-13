@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+#header {
+    border: 1px solid black;
+    background: rgb(14, 53, 104);
+}
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container, .img-container,nav, li {
+    display: inline-block;
+    margin: 0.25rem;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.header-img {
+    width: 6rem;
+    margin-left: 3rem;
+}
+.nav-container {
+    width: 50%;
+}
+
+#nav-bar{
+    float: right;
+    line-height: 100px;
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: cornsilk;
+}
+
+ul li {
+    margin: 0 2rem;
+}
+ 
+.main-section { 
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    background: linear-gradient(90deg, rgba(205,205,205,0.3) 50%, rgba(205,205,205,0.3) 50%), url(../assets/img/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60rem;
+}
+.main-banner {
+    width: 45rem;
+    height: 25rem;
+}
+.subsection {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.console-badges-section p {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.console-badges-section img{
+
+    margin: 0 1rem ;
+}
+.console-badges {
+    width: 9rem;
+    border: 1px black solid;
+    border-radius: .5rem;
+    background: rgb(255, 255, 255);
+    padding: .5rem 1rem;
+}
+
+#awards {
+    width: 100%;
+    height: 23rem;
+    text-align: center;
+    background: rgb(14, 53, 104);
+}
+
+.awards-container {
+    background: rgb(100, 142, 161);
+}
+.awards-container img {
+    width: 9rem;
+    margin: 1rem 3rem;
+}
+
+.review {
+    margin: .8rem auto;
+    width: 50%;
+}
+.review p {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color:rgb(179, 151, 80);
+}
+span {
+    font-size: 2rem;
+    color:rgb(179, 151, 80);
+}
+
+#des-section {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    background: url(../assets/img/des-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.des-container, .trailer-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.des {
+    width: 45rem;
+    height: 25rem;
+    padding: 2rem 4rem;
+    background: linear-gradient(90deg, rgba(205,205,205,0.6) 50%, rgba(205,205,205,0.6) 50%);
+
+}
+.des h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.description {
+    width: 42rem;
+    height: auto;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 2rem 0;
+}
+
+.mis-section{
+    width: 100%;
+    height: 32em;
+    display: flex;
+    background: rgb(14, 53, 104);
+}
+.form-section {
+    width: 50%;
+}
+form {
+    padding: 2rem;
+    margin: 4rem;
+    background: linear-gradient(90deg, rgba(205,205,205,0.6) 50%, rgba(205,205,205,0.6) 50%);
+}
+
+.form-section label, p{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+    
+}
+input {
+    width: 100%;
+    height: 3rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.buy-section p{
+     color: rgb(179, 151, 80);
+}
+.buy-section {
+    margin: 10rem 0;
+    width: 50%;
+    text-align: center;
+}
+.input-textarea {
+    width: 100%;
+    height: 10rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.6rem;
+    background-color: #fff;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font: inherit;
+    color: inherit;
+    background-color: #3fa1a1;
+    border-radius: 2px;
+    cursor: pointer;
+}
